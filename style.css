@@ -33,3 +33,25 @@ p{
 img{
     width: 100%;
 }
+
+.navbar{
+    background: #047aed;
+    color: #fff;
+    height: 70px;
+    padding: 10px;
+    border-bottom: 5px solid #000;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar ul{
+    display: flex;
+   padding : 0 10px;
+   margin: 0 10px;
+}
+
+.navbar a{
+    color: #fff;
+    padding: 0 10px;
+    margin: 0 10px;
+}
