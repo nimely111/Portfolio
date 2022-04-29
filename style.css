@@ -81,3 +81,11 @@ img{
 .logo{
     cursor: pointer;
 }
+
+.about-section{
+    background:#333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
