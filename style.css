@@ -92,6 +92,38 @@ img{
     align-items: center;
 }
 
+
 .about-section h1{
     margin: 5px 0;
+    font-size: 34px;
+}
+
+.about-section .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-head .sub-img{
+    margin-left: 5%;
+    width: 45%;
+}
+
+.flex-head .sub-img img{
+    height: 50%;
+    width: 100%;
+    border-left: 10px solid #fff;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    border-radius: 55px 0 35px 35px; 
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.7)
+}
+
+.flex-head .sub-text{
+    margin: 0;
+    width: 55%;
+}
+
+.work-section{
+
 }
