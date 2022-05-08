@@ -15,6 +15,7 @@ h1, h2{
     font-weight: 300px;
     line-height: 1.2;
     margin: 10px 0;
+    overflow-y: hidden;
 }
 
 a{
@@ -62,7 +63,7 @@ img{
 
 .navbar .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -89,4 +90,8 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about-section h1{
+    margin: 5px 0;
 }
