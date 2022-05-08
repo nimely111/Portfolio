@@ -114,7 +114,7 @@ img{
     width: 100%;
     border-left: 10px solid #fff;
     border-top: 10px solid #fff;
-    border-bottom: 10px solid #fff;
+    border-bottom: 10px solid #047aed;
     border-radius: 55px 0 35px 35px; 
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.7)
 }
