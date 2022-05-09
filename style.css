@@ -113,7 +113,14 @@ img{
     margin-left: 0;
 }
 
-.flex-head .sub-img img:hover{
+.item:nth-of-type(2){
+    order: 1;
+    flex-grow: 1;
+    height: 50%;
+    margin-left: 50px;
+}
+
+.item:hover{
     transform: scale(0.98);
 }
 
