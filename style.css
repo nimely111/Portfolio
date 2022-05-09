@@ -40,7 +40,7 @@ img{
     color: #fff;
     height: 70px;
     padding: 10px;
-    border-bottom: 5px solid #000;
+    border-bottom: 5px solid #fff;
     position: fixed;
     width: 100%;
 }
@@ -92,21 +92,14 @@ img{
     align-items: center;
 }
 
-
-.about-section h1{
-    margin: 5px 0;
-    font-size: 34px;
-}
-
-.about-section .flex{
+.flex-contain{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .flex-head .sub-img{
-    margin-left: 5%;
-    width: 45%;
+    flex-basis: 45%;
 }
 
 .flex-head .sub-img img{
@@ -116,12 +109,16 @@ img{
     border-top: 10px solid #fff;
     border-bottom: 10px solid #047aed;
     border-radius: 55px 0 35px 35px; 
-    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.7)
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.7);
+    margin-left: 0;
 }
 
-.flex-head .sub-text{
-    margin: 0;
-    width: 55%;
+.flex-head .sub-img img:hover{
+    transform: scale(0.98);
+}
+
+.flex-head{
+   /* background: #8d7d7d; */
 }
 
 .work-section{
