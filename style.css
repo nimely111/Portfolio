@@ -16,6 +16,8 @@ h1, h2{
     line-height: 1.2;
     margin: 10px 0;
     overflow-y: hidden;
+    color: #06e206;
+    font-size: 33px;
 }
 
 a{
@@ -37,11 +39,11 @@ img{
 }
 
 .navbar{
-    background: #047aed;
+    background: #1c64ac;
     color: #fff;
     height: 70px;
-    padding: 10px;
-    border-bottom: 5px solid #fff;
+    padding: 10px; /*padding is the space within an element*/
+    border-bottom: 5px solid #06e206;
     position: fixed;
     width: 100%;
 }
@@ -94,8 +96,8 @@ img{
 }
 
 .flex-contain{
-    display: flex;
-    justify-content: space-between;
+     display: flex;
+   justify-content: space-around;
     align-items: center;
 }
 
@@ -103,15 +105,24 @@ img{
     flex-basis: 45%;
 }
 
+.sub-text p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
 .flex-head .sub-img img{
     height: 50%;
     width: 75%;
-    border-left: 10px solid #fff;
+    border-left: 10px solid #06e206;
     border-top: 10px solid #fff;
-    border-bottom: 10px solid #047aed;
-    border-radius: 55px 0 35px 35px; 
+    border-bottom: 10px solid #06e206;
+    border-radius: 55px 0 35px 35px;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.7);
     margin-left: 0;
+    -webkit-border-radius: 55px 0 35px 35px;
+    -moz-border-radius: 55px 0 35px 35px;
+    -ms-border-radius: 55px 0 35px 35px;
+    -o-border-radius: 55px 0 35px 35px;
 }
 
 .item:nth-of-type(2){
@@ -123,6 +134,10 @@ img{
 
 .item:hover{
     transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
 }
 
 .flex-head{
